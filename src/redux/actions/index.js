@@ -1,10 +1,12 @@
-import counterActions from './counterActions'
-import userActions from './userActions'
+
+import signupActions from './signupActions'
+import loginAction from './loginAction'
+import signupUserAction from './signupUserAction'
 
 const allActions = {
-    counterActions,
-    userActions,
-    
+    signupActions,
+    loginAction,
+    signupUserAction
 }
 
 export default allActions

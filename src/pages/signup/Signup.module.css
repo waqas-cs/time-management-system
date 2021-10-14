@@ -3,7 +3,7 @@
     vertical-align: middle;
 }
 .sigupMainWrap{
-    width: 50%;
+    width: 35%;
     margin: 0px auto;
     padding-top: 50px;
 }
@@ -13,7 +13,7 @@
     border: 1px solid #b1afaf;
     background-color: #f7f7f7;
 }
-.sigupForm h3{
+.sigupForm h4{
     margin: 10px 0px 30px;
 }
 .sigupForm:hover{

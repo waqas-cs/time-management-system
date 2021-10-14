@@ -1,10 +1,5 @@
 .dashboardMain{
-    background-image: url("../../assets/images/dashboardBg5.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    height: 100vh;
+    background-color: #eeeeee;
 }
 .dashboardWrap{
     padding: 50px 0px;
@@ -12,7 +7,7 @@
 .dashboardHeader{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -39,10 +34,6 @@
 }
 .displayManager{
     margin: 50px 0px;
-    color: white;
-}
-.displayManager Table, .displayUser Table{
-    color: white;
 }
 .userLogForm{
     width: 50%;
@@ -54,6 +45,32 @@
 .displayUser h5{
     margin: 15px 0px;
 }
-.buttonAction{
+.editButton, .deleteButton{
+    padding: 2px 20px;
+    border: none;
+    border-radius: 5px;
     
+    font-size: 14px;
+    font-weight: 500;
+}
+.editButton{
+    margin-right: 10px;
+    background-color: lightblue;
+}
+.deleteButton{
+    background-color: lightcoral;
+}
+
+.editButton:hover, .deleteButton:hover{
+    box-shadow: 0px 0px 3px 1px grey;
+    transition: all 0.5s;
+}
+.updateButton{
+    margin-left: 15px;
+}
+.displayUser Table tbody .redHours{
+    background-color: red;
+}
+.displayUser Table tbody .greenHours{
+    background-color: green;
 }
